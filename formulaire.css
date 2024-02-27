@@ -1,0 +1,59 @@
+.formulaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+    width: 100%;
+}
+.formulaire label {
+    text-align: left; 
+    width: 30%;   
+}
+
+#submit {
+    width: 10%;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#submit:hover {
+    width: 10%;
+    background-color: rgb(140, 169, 237);
+}
+.formulaire input {
+    align-items: center;
+    height: 30px;
+    margin: 5px;
+    width: 30%;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.formulaire label {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 20%;
+    border-radius: 5px;
+    background-color: rgb(140, 169, 237);
+    border: 1px solid black;
+}
+
+.carte {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
